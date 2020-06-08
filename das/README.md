@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+MVP for Doctors Appointment System.
 
-Things you may want to cover:
+There will be two entity Doctor and Patient.
 
-* Ruby version
+Both Doctor and Patient are able to login into system and views will be decided based on roles
 
-* System dependencies
+Patient needs an ability to schedule an appointment where they can select Doctor and Date of the appointment. Once appointment is created application should fire email after 15 min. to doctor and Doctor can confirm or decline appointment from the email it-self and response of the doctor ( accept/reject) will be notified to Patient too via email.
 
-* Configuration
+Doctor can check today appointment (you can use anything for showing appointment which can make doctor life easy).
 
-* Database creation
+Doctor can prescribe medicine list to patient after the appointment and that prescribed medicine will be sent via email to the patient.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+No other appointment can be scheduled if doctor is having appointment at selected time.
